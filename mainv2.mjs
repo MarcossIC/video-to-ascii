@@ -380,7 +380,7 @@ class AsciiPlayer {
                 // Mostrar el frame solo después de esperar el tiempo adecuado
                 process.stdout.write('\x1b[0f');
                 process.stdout.write(frame);
-                lastFrameTime = process.hrtime.bigint();
+                lastFrameTime = now;
             }
         }
         await fs.rm(this.tempDir, { recursive: true, force: true });

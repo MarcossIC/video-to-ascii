@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "mainv2.mjs",
   "scripts": {
-    "run-v2": "node mainv2.mjs --max-old-space-size=4096 --width=100 --height=45 --fps=32 --quality=high --batch=33",
+    "run-v2": "node mainv2.mjs --max-old-space-size=4096 --width=80 --height=38 --fps=28 --quality=high --batch=30",
     "run-v1": "node mainv1.mjs"
   },
   "keywords": [],
