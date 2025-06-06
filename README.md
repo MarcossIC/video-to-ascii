@@ -46,7 +46,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; `
 [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
-# Verificar instalacion (En una nueva conola de cmd deberia de funcionar:)
+# Verificar instalacion (En una nueva consola de cmd deberia de funcionar:)
 choco
 ```
 
