@@ -37,6 +37,19 @@ git clone https://github.com/MarcossIC/video-to-ascii.git
 ```bash
 git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
 ```
+
+2.2 Si no tienes choco ni winget, puedes instalar choco en windows ejecutando en powershell:
+```bash
+# Instalacion
+Set-ExecutionPolicy Bypass -Scope Process -Force; `
+[System.Net.ServicePointManager]::SecurityProtocol = `
+[System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+# Verificar instalacion (En una nueva conola de cmd deberia de funcionar:)
+choco
+```
+
 4. En la guia oficial encontraras que comandos puedes usar para que se instalen los binarios. Ejemplo en windows
 ```bash
 # Con winget
